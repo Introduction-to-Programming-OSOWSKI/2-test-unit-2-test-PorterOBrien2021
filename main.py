@@ -1,7 +1,7 @@
 def waterState(f):
-    if f == "Ice":
+    if f <= 32:
         return "Solid"
-    elif f == "water":
+    elif 32 < f > 212:
         return "Liquid"
     else:
         return "gas"
